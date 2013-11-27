@@ -1,0 +1,4 @@
+.project
+.settings/com.eclipsesource.jshint.ui.prefs
+log/exceptions.log
+log/winston.log

@@ -1,0 +1,1067 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.1.69
+3 info using node@v0.8.16
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json D:\node_js_project\star_adapter\package.json
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'D:\\node_js_project\\star_adapter', [ 'express', 'jade' ] ]
+8 verbose from cache D:\node_js_project\star_adapter\package.json
+9 info preinstall star_adapter@0.0.1
+10 verbose from cache D:\node_js_project\star_adapter\package.json
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'express@3.2.4', null ]
+13 silly cache add name=undefined spec="express@3.2.4" args=["express@3.2.4",null]
+14 verbose parsed url { pathname: 'express@3.2.4',
+14 verbose parsed url   path: 'express@3.2.4',
+14 verbose parsed url   href: 'express@3.2.4' }
+15 silly cache add name="express" spec="3.2.4" args=["express","3.2.4"]
+16 verbose parsed url { pathname: '3.2.4', path: '3.2.4', href: '3.2.4' }
+17 verbose addNamed [ 'express', '3.2.4' ]
+18 verbose addNamed [ '3.2.4', '3.2.4' ]
+19 verbose cache add [ 'jade@*', null ]
+20 silly cache add name=undefined spec="jade@*" args=["jade@*",null]
+21 verbose parsed url { pathname: 'jade@*', path: 'jade@*', href: 'jade@*' }
+22 silly cache add name="jade" spec="*" args=["jade","*"]
+23 verbose parsed url { pathname: '*', path: '*', href: '*' }
+24 verbose addNamed [ 'jade', '*' ]
+25 verbose addNamed [ null, '' ]
+26 silly lockFile ad03ed78-jade jade@*
+27 verbose lock jade@* C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\ad03ed78-jade.lock
+28 silly lockFile 9e0aca13-express-3-2-4 express@3.2.4
+29 verbose lock express@3.2.4 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\9e0aca13-express-3-2-4.lock
+30 silly addNameRange { name: 'jade', range: '', hasData: false }
+31 verbose url raw express/3.2.4
+32 verbose url resolving [ 'https://registry.npmjs.org/', './express/3.2.4' ]
+33 verbose url resolved https://registry.npmjs.org/express/3.2.4
+34 info trying registry request attempt 1 at 17:50:45
+35 verbose etag "75R82I3GK7X6G39ZVOY5PX96X"
+36 http GET https://registry.npmjs.org/express/3.2.4
+37 verbose url raw jade
+38 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+39 verbose url resolved https://registry.npmjs.org/jade
+40 info trying registry request attempt 1 at 17:50:45
+41 verbose etag "2YSGBNW4R0FSTBWMRV6X1QYNQ"
+42 http GET https://registry.npmjs.org/jade
+43 http 200 https://registry.npmjs.org/express/3.2.4
+44 silly registry.get cb [ 200,
+44 silly registry.get   { vary: 'Accept',
+44 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+44 silly registry.get     etag: '"59DAOWCQ6XM48CD5UP7EI8ZME"',
+44 silly registry.get     date: 'Mon, 25 Nov 2013 09:50:46 GMT',
+44 silly registry.get     'content-type': 'application/json',
+44 silly registry.get     'content-length': '7719' } ]
+45 silly lockFile ad0deaf1-js-org-express-express-3-2-4-tgz https://registry.npmjs.org/express/-/express-3.2.4.tgz
+46 verbose lock https://registry.npmjs.org/express/-/express-3.2.4.tgz C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\ad0deaf1-js-org-express-express-3-2-4-tgz.lock
+47 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.2.4.tgz',
+47 verbose addRemoteTarball   'f39fcba9a224011058fb581647688b12df94f585' ]
+48 info retry fetch attempt 1 at 17:50:48
+49 verbose fetch to= C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373048503-0.972922274377197\tmp.tgz
+50 http GET https://registry.npmjs.org/express/-/express-3.2.4.tgz
+51 http 200 https://registry.npmjs.org/express/-/express-3.2.4.tgz
+52 http 200 https://registry.npmjs.org/jade
+53 silly registry.get cb [ 200,
+53 silly registry.get   { vary: 'Accept',
+53 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+53 silly registry.get     etag: '"F2QMJ6MCZMFS3P14NUMWABTCQ"',
+53 silly registry.get     date: 'Mon, 25 Nov 2013 09:50:47 GMT',
+53 silly registry.get     'content-type': 'application/json',
+53 silly registry.get     'content-length': '596666' } ]
+54 silly addNameRange number 2 { name: 'jade', range: '', hasData: true }
+55 silly addNameRange versions [ 'jade',
+55 silly addNameRange   [ '0.0.1',
+55 silly addNameRange     '0.0.2',
+55 silly addNameRange     '0.1.0',
+55 silly addNameRange     '0.2.0',
+55 silly addNameRange     '0.2.1',
+55 silly addNameRange     '0.2.2',
+55 silly addNameRange     '0.2.3',
+55 silly addNameRange     '0.2.4',
+55 silly addNameRange     '0.3.0',
+55 silly addNameRange     '0.4.0',
+55 silly addNameRange     '0.4.1',
+55 silly addNameRange     '0.5.0',
+55 silly addNameRange     '0.5.1',
+55 silly addNameRange     '0.5.2',
+55 silly addNameRange     '0.5.3',
+55 silly addNameRange     '0.5.4',
+55 silly addNameRange     '0.5.5',
+55 silly addNameRange     '0.5.6',
+55 silly addNameRange     '0.5.7',
+55 silly addNameRange     '0.6.0',
+55 silly addNameRange     '0.6.1',
+55 silly addNameRange     '0.6.3',
+55 silly addNameRange     '0.7.0',
+55 silly addNameRange     '0.7.1',
+55 silly addNameRange     '0.8.0',
+55 silly addNameRange     '0.8.1',
+55 silly addNameRange     '0.8.2',
+55 silly addNameRange     '0.8.3',
+55 silly addNameRange     '0.8.4',
+55 silly addNameRange     '0.8.5',
+55 silly addNameRange     '0.8.6',
+55 silly addNameRange     '0.8.7',
+55 silly addNameRange     '0.8.8',
+55 silly addNameRange     '0.8.9',
+55 silly addNameRange     '0.9.0',
+55 silly addNameRange     '0.9.1',
+55 silly addNameRange     '0.9.2',
+55 silly addNameRange     '0.9.3',
+55 silly addNameRange     '0.10.0',
+55 silly addNameRange     '0.10.1',
+55 silly addNameRange     '0.10.2',
+55 silly addNameRange     '0.10.3',
+55 silly addNameRange     '0.10.4',
+55 silly addNameRange     '0.10.5',
+55 silly addNameRange     '0.10.6',
+55 silly addNameRange     '0.10.7',
+55 silly addNameRange     '0.11.0',
+55 silly addNameRange     '0.11.1',
+55 silly addNameRange     '0.12.0',
+55 silly addNameRange     '0.12.1',
+55 silly addNameRange     '0.12.2',
+55 silly addNameRange     '0.12.3',
+55 silly addNameRange     '0.12.4',
+55 silly addNameRange     '0.13.0',
+55 silly addNameRange     '0.14.0',
+55 silly addNameRange     '0.14.1',
+55 silly addNameRange     '0.14.2',
+55 silly addNameRange     '0.15.0',
+55 silly addNameRange     '0.15.1',
+55 silly addNameRange     '0.15.2',
+55 silly addNameRange     '0.15.3',
+55 silly addNameRange     '0.15.4',
+55 silly addNameRange     '0.16.0',
+55 silly addNameRange     '0.16.1',
+55 silly addNameRange     '0.16.2',
+55 silly addNameRange     '0.16.3',
+55 silly addNameRange     '0.16.4',
+55 silly addNameRange     '0.17.0',
+55 silly addNameRange     '0.18.0',
+55 silly addNameRange     '0.19.0',
+55 silly addNameRange     '0.20.0',
+55 silly addNameRange     '0.20.1',
+55 silly addNameRange     '0.20.2',
+55 silly addNameRange     '0.20.3',
+55 silly addNameRange     '0.21.0',
+55 silly addNameRange     '0.22.0',
+55 silly addNameRange     '0.22.1',
+55 silly addNameRange     '0.23.0',
+55 silly addNameRange     '0.24.0',
+55 silly addNameRange     '0.25.0',
+55 silly addNameRange     '0.26.0',
+55 silly addNameRange     '0.26.1',
+55 silly addNameRange     '0.26.2',
+55 silly addNameRange     '0.26.3',
+55 silly addNameRange     '0.27.0',
+55 silly addNameRange     '0.27.1',
+55 silly addNameRange     '0.27.2',
+55 silly addNameRange     '0.27.3',
+55 silly addNameRange     '0.27.4',
+55 silly addNameRange     '0.27.5',
+55 silly addNameRange     '0.27.6',
+55 silly addNameRange     '0.27.7',
+55 silly addNameRange     '0.28.0',
+55 silly addNameRange     '0.28.1',
+55 silly addNameRange     '0.28.2',
+55 silly addNameRange     '0.29.0',
+55 silly addNameRange     '0.30.0',
+55 silly addNameRange     '0.31.0',
+55 silly addNameRange     '0.31.1',
+55 silly addNameRange     '0.31.2',
+55 silly addNameRange     '0.32.0',
+55 silly addNameRange     '0.33.0',
+55 silly addNameRange     '0.34.0',
+55 silly addNameRange     '0.34.1',
+55 silly addNameRange     '0.35.0' ] ]
+56 verbose addNamed [ 'jade', '0.35.0' ]
+57 verbose addNamed [ '0.35.0', '0.35.0' ]
+58 silly lockFile 606948c4-jade-0-35-0 jade@0.35.0
+59 verbose lock jade@0.35.0 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\606948c4-jade-0-35-0.lock
+60 silly lockFile e3a04c21-y-npmjs-org-jade-jade-0-35-0-tgz https://registry.npmjs.org/jade/-/jade-0.35.0.tgz
+61 verbose lock https://registry.npmjs.org/jade/-/jade-0.35.0.tgz C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\e3a04c21-y-npmjs-org-jade-jade-0-35-0-tgz.lock
+62 verbose addRemoteTarball [ 'https://registry.npmjs.org/jade/-/jade-0.35.0.tgz',
+62 verbose addRemoteTarball   '75ec1d966a1203733613e8c180e2aa8685c16da9' ]
+63 info retry fetch attempt 1 at 17:50:50
+64 verbose fetch to= C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373050233-0.4343855616170913\tmp.tgz
+65 http GET https://registry.npmjs.org/jade/-/jade-0.35.0.tgz
+66 silly shasum updated bytes 35940
+67 info shasum f39fcba9a224011058fb581647688b12df94f585
+67 info shasum C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373048503-0.972922274377197\tmp.tgz
+68 verbose tar unpack C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373048503-0.972922274377197\tmp.tgz
+69 silly lockFile f8475074-048503-0-972922274377197-package C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373048503-0.972922274377197\package
+70 verbose lock C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373048503-0.972922274377197\package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\f8475074-048503-0-972922274377197-package.lock
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm extractEntry .npmignore
+74 silly gunzTarPerm extractEntry LICENSE
+75 silly gunzTarPerm extractEntry index.js
+76 silly gunzTarPerm extractEntry .travis.yml
+77 silly gunzTarPerm extractEntry bin/express
+78 silly gunzTarPerm extractEntry History.md
+79 silly gunzTarPerm extractEntry lib/application.js
+80 silly gunzTarPerm extractEntry lib/express.js
+81 silly gunzTarPerm extractEntry lib/middleware.js
+82 silly gunzTarPerm extractEntry lib/request.js
+83 silly gunzTarPerm extractEntry lib/response.js
+84 silly gunzTarPerm extractEntry lib/utils.js
+85 silly gunzTarPerm extractEntry lib/view.js
+86 silly gunzTarPerm extractEntry lib/router/index.js
+87 silly gunzTarPerm extractEntry lib/router/route.js
+88 silly gunzTarPerm extractEntry Makefile
+89 silly gunzTarPerm extractEntry Readme.md
+90 verbose read json C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373048503-0.972922274377197\package\package.json
+91 silly lockFile f8475074-048503-0-972922274377197-package C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373048503-0.972922274377197\package
+92 verbose from cache C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373048503-0.972922274377197\package\package.json
+93 verbose tar pack [ 'C:\\Users\\feltmeng-progarm\\AppData\\Roaming\\npm-cache\\express\\3.2.4\\package.tgz',
+93 verbose tar pack   'C:\\Users\\FELTME~1\\AppData\\Local\\Temp\\npm-18496\\1385373048503-0.972922274377197\\package' ]
+94 verbose tarball C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package.tgz
+95 verbose folder C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373048503-0.972922274377197\package
+96 silly lockFile 9ca7bad8--cache-express-3-2-4-package-tgz C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package.tgz
+97 verbose lock C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package.tgz C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\9ca7bad8--cache-express-3-2-4-package-tgz.lock
+98 silly lockFile 9ca7bad8--cache-express-3-2-4-package-tgz C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package.tgz
+99 silly lockFile 207d3543--npm-cache-express-3-2-4-package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package
+100 verbose lock C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\207d3543--npm-cache-express-3-2-4-package.lock
+101 silly lockFile 207d3543--npm-cache-express-3-2-4-package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package
+102 verbose tar unpack C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package.tgz
+103 silly lockFile 207d3543--npm-cache-express-3-2-4-package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package
+104 verbose lock C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\207d3543--npm-cache-express-3-2-4-package.lock
+105 silly gunzTarPerm modes [ '755', '644' ]
+106 silly gunzTarPerm extractEntry package.json
+107 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+108 silly gunzTarPerm extractEntry .npmignore
+109 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+110 silly gunzTarPerm extractEntry LICENSE
+111 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+112 silly gunzTarPerm extractEntry index.js
+113 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+114 silly gunzTarPerm extractEntry .travis.yml
+115 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+116 silly gunzTarPerm extractEntry bin/express
+117 silly gunzTarPerm modified mode [ 'bin/express', 438, 420 ]
+118 silly gunzTarPerm extractEntry History.md
+119 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+120 silly gunzTarPerm extractEntry lib/application.js
+121 silly gunzTarPerm modified mode [ 'lib/application.js', 438, 420 ]
+122 silly gunzTarPerm extractEntry lib/express.js
+123 silly gunzTarPerm modified mode [ 'lib/express.js', 438, 420 ]
+124 silly gunzTarPerm extractEntry lib/middleware.js
+125 silly gunzTarPerm modified mode [ 'lib/middleware.js', 438, 420 ]
+126 silly gunzTarPerm extractEntry lib/request.js
+127 silly gunzTarPerm modified mode [ 'lib/request.js', 438, 420 ]
+128 silly gunzTarPerm extractEntry lib/response.js
+129 silly gunzTarPerm modified mode [ 'lib/response.js', 438, 420 ]
+130 silly gunzTarPerm extractEntry lib/utils.js
+131 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+132 silly gunzTarPerm extractEntry lib/view.js
+133 silly gunzTarPerm modified mode [ 'lib/view.js', 438, 420 ]
+134 silly gunzTarPerm extractEntry lib/router/index.js
+135 silly gunzTarPerm modified mode [ 'lib/router/index.js', 438, 420 ]
+136 silly gunzTarPerm extractEntry lib/router/route.js
+137 silly gunzTarPerm modified mode [ 'lib/router/route.js', 438, 420 ]
+138 silly gunzTarPerm extractEntry Makefile
+139 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+140 silly gunzTarPerm extractEntry Readme.md
+141 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+142 verbose read json C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package\package.json
+143 silly lockFile 207d3543--npm-cache-express-3-2-4-package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package
+144 silly shasum updated bytes 35798
+145 info shasum 929c85d0d9491f4a7107cdb6bc0fe94af9a5f148
+145 info shasum C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package.tgz
+146 verbose from cache C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package\package.json
+147 verbose chmod C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package.tgz 644
+148 silly chown skipping for windows C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package.tgz
+149 silly lockFile ad0deaf1-js-org-express-express-3-2-4-tgz https://registry.npmjs.org/express/-/express-3.2.4.tgz
+150 silly lockFile 9e0aca13-express-3-2-4 express@3.2.4
+151 http 200 https://registry.npmjs.org/jade/-/jade-0.35.0.tgz
+152 silly shasum updated bytes 40960
+153 silly shasum updated bytes 40960
+154 silly shasum updated bytes 40960
+155 silly shasum updated bytes 21835
+156 info shasum 75ec1d966a1203733613e8c180e2aa8685c16da9
+156 info shasum C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373050233-0.4343855616170913\tmp.tgz
+157 verbose tar unpack C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373050233-0.4343855616170913\tmp.tgz
+158 silly lockFile 0057a67e-50233-0-4343855616170913-package C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373050233-0.4343855616170913\package
+159 verbose lock C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373050233-0.4343855616170913\package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\0057a67e-50233-0-4343855616170913-package.lock
+160 silly gunzTarPerm modes [ '755', '644' ]
+161 silly gunzTarPerm extractEntry package.json
+162 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+163 silly gunzTarPerm extractEntry .npmignore
+164 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+165 silly gunzTarPerm extractEntry LICENSE
+166 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+167 silly gunzTarPerm extractEntry index.js
+168 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+169 silly gunzTarPerm extractEntry jade.js
+170 silly gunzTarPerm modified mode [ 'jade.js', 438, 420 ]
+171 silly gunzTarPerm extractEntry runtime.js
+172 silly gunzTarPerm modified mode [ 'runtime.js', 438, 420 ]
+173 silly gunzTarPerm extractEntry bin/jade
+174 silly gunzTarPerm modified mode [ 'bin/jade', 438, 420 ]
+175 silly gunzTarPerm extractEntry lib/compiler.js
+176 silly gunzTarPerm modified mode [ 'lib/compiler.js', 438, 420 ]
+177 silly gunzTarPerm extractEntry lib/filters-client.js
+178 silly gunzTarPerm modified mode [ 'lib/filters-client.js', 438, 420 ]
+179 silly gunzTarPerm extractEntry lib/filters.js
+180 silly gunzTarPerm modified mode [ 'lib/filters.js', 438, 420 ]
+181 silly gunzTarPerm extractEntry lib/index.js
+182 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+183 silly gunzTarPerm extractEntry lib/inline-tags.js
+184 silly gunzTarPerm modified mode [ 'lib/inline-tags.js', 438, 420 ]
+185 silly gunzTarPerm extractEntry lib/doctypes.js
+186 silly gunzTarPerm modified mode [ 'lib/doctypes.js', 438, 420 ]
+187 silly gunzTarPerm extractEntry lib/lexer.js
+188 silly gunzTarPerm modified mode [ 'lib/lexer.js', 438, 420 ]
+189 silly gunzTarPerm extractEntry lib/self-closing.js
+190 silly gunzTarPerm modified mode [ 'lib/self-closing.js', 438, 420 ]
+191 silly gunzTarPerm extractEntry lib/parser.js
+192 silly gunzTarPerm modified mode [ 'lib/parser.js', 438, 420 ]
+193 silly gunzTarPerm extractEntry lib/runtime.js
+194 silly gunzTarPerm modified mode [ 'lib/runtime.js', 438, 420 ]
+195 silly gunzTarPerm extractEntry lib/utils.js
+196 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+197 silly gunzTarPerm extractEntry lib/jade.js
+198 silly gunzTarPerm modified mode [ 'lib/jade.js', 438, 420 ]
+199 silly gunzTarPerm extractEntry lib/nodes/attrs.js
+200 silly gunzTarPerm modified mode [ 'lib/nodes/attrs.js', 438, 420 ]
+201 silly gunzTarPerm extractEntry lib/nodes/code.js
+202 silly gunzTarPerm modified mode [ 'lib/nodes/code.js', 438, 420 ]
+203 silly gunzTarPerm extractEntry lib/nodes/comment.js
+204 silly gunzTarPerm modified mode [ 'lib/nodes/comment.js', 438, 420 ]
+205 silly gunzTarPerm extractEntry lib/nodes/doctype.js
+206 silly gunzTarPerm modified mode [ 'lib/nodes/doctype.js', 438, 420 ]
+207 silly gunzTarPerm extractEntry lib/nodes/case.js
+208 silly gunzTarPerm modified mode [ 'lib/nodes/case.js', 438, 420 ]
+209 silly gunzTarPerm extractEntry lib/nodes/filter.js
+210 silly gunzTarPerm modified mode [ 'lib/nodes/filter.js', 438, 420 ]
+211 silly gunzTarPerm extractEntry lib/nodes/index.js
+212 silly gunzTarPerm modified mode [ 'lib/nodes/index.js', 438, 420 ]
+213 silly gunzTarPerm extractEntry lib/nodes/literal.js
+214 silly gunzTarPerm modified mode [ 'lib/nodes/literal.js', 438, 420 ]
+215 silly gunzTarPerm extractEntry lib/nodes/mixin.js
+216 silly gunzTarPerm modified mode [ 'lib/nodes/mixin.js', 438, 420 ]
+217 silly gunzTarPerm extractEntry lib/nodes/node.js
+218 silly gunzTarPerm modified mode [ 'lib/nodes/node.js', 438, 420 ]
+219 silly gunzTarPerm extractEntry lib/nodes/block.js
+220 silly gunzTarPerm modified mode [ 'lib/nodes/block.js', 438, 420 ]
+221 silly gunzTarPerm extractEntry lib/nodes/tag.js
+222 silly gunzTarPerm modified mode [ 'lib/nodes/tag.js', 438, 420 ]
+223 silly gunzTarPerm extractEntry lib/nodes/block-comment.js
+224 silly gunzTarPerm modified mode [ 'lib/nodes/block-comment.js', 438, 420 ]
+225 silly gunzTarPerm extractEntry lib/nodes/text.js
+226 silly gunzTarPerm modified mode [ 'lib/nodes/text.js', 438, 420 ]
+227 silly gunzTarPerm extractEntry lib/nodes/each.js
+228 silly gunzTarPerm modified mode [ 'lib/nodes/each.js', 438, 420 ]
+229 silly gunzTarPerm extractEntry jade-language.md
+230 silly gunzTarPerm modified mode [ 'jade-language.md', 438, 420 ]
+231 silly gunzTarPerm extractEntry component.json
+232 silly gunzTarPerm modified mode [ 'component.json', 438, 420 ]
+233 silly gunzTarPerm extractEntry Readme.md
+234 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+235 silly gunzTarPerm extractEntry Readme_zh-cn.md
+236 silly gunzTarPerm modified mode [ 'Readme_zh-cn.md', 438, 420 ]
+237 silly gunzTarPerm extractEntry jade.md
+238 silly gunzTarPerm modified mode [ 'jade.md', 438, 420 ]
+239 verbose read json C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373050233-0.4343855616170913\package\package.json
+240 silly lockFile 0057a67e-50233-0-4343855616170913-package C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373050233-0.4343855616170913\package
+241 verbose from cache C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373050233-0.4343855616170913\package\package.json
+242 verbose tar pack [ 'C:\\Users\\feltmeng-progarm\\AppData\\Roaming\\npm-cache\\jade\\0.35.0\\package.tgz',
+242 verbose tar pack   'C:\\Users\\FELTME~1\\AppData\\Local\\Temp\\npm-18496\\1385373050233-0.4343855616170913\\package' ]
+243 verbose tarball C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package.tgz
+244 verbose folder C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373050233-0.4343855616170913\package
+245 silly lockFile 56d4c903-pm-cache-jade-0-35-0-package-tgz C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package.tgz
+246 verbose lock C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package.tgz C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\56d4c903-pm-cache-jade-0-35-0-package-tgz.lock
+247 silly lockFile 56d4c903-pm-cache-jade-0-35-0-package-tgz C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package.tgz
+248 silly lockFile 207272bc-ng-npm-cache-jade-0-35-0-package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package
+249 verbose lock C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\207272bc-ng-npm-cache-jade-0-35-0-package.lock
+250 silly lockFile 207272bc-ng-npm-cache-jade-0-35-0-package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package
+251 verbose tar unpack C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package.tgz
+252 silly lockFile 207272bc-ng-npm-cache-jade-0-35-0-package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package
+253 verbose lock C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\207272bc-ng-npm-cache-jade-0-35-0-package.lock
+254 silly gunzTarPerm modes [ '755', '644' ]
+255 silly gunzTarPerm extractEntry package.json
+256 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+257 silly gunzTarPerm extractEntry .npmignore
+258 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+259 silly gunzTarPerm extractEntry LICENSE
+260 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+261 silly gunzTarPerm extractEntry index.js
+262 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+263 silly gunzTarPerm extractEntry jade.js
+264 silly gunzTarPerm modified mode [ 'jade.js', 438, 420 ]
+265 silly gunzTarPerm extractEntry runtime.js
+266 silly gunzTarPerm modified mode [ 'runtime.js', 438, 420 ]
+267 silly gunzTarPerm extractEntry bin/jade
+268 silly gunzTarPerm modified mode [ 'bin/jade', 438, 420 ]
+269 silly gunzTarPerm extractEntry lib/compiler.js
+270 silly gunzTarPerm modified mode [ 'lib/compiler.js', 438, 420 ]
+271 silly gunzTarPerm extractEntry lib/filters-client.js
+272 silly gunzTarPerm modified mode [ 'lib/filters-client.js', 438, 420 ]
+273 silly gunzTarPerm extractEntry lib/filters.js
+274 silly gunzTarPerm modified mode [ 'lib/filters.js', 438, 420 ]
+275 silly gunzTarPerm extractEntry lib/index.js
+276 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+277 silly gunzTarPerm extractEntry lib/inline-tags.js
+278 silly gunzTarPerm modified mode [ 'lib/inline-tags.js', 438, 420 ]
+279 silly gunzTarPerm extractEntry lib/doctypes.js
+280 silly gunzTarPerm modified mode [ 'lib/doctypes.js', 438, 420 ]
+281 silly gunzTarPerm extractEntry lib/lexer.js
+282 silly gunzTarPerm modified mode [ 'lib/lexer.js', 438, 420 ]
+283 silly gunzTarPerm extractEntry lib/self-closing.js
+284 silly gunzTarPerm modified mode [ 'lib/self-closing.js', 438, 420 ]
+285 silly gunzTarPerm extractEntry lib/parser.js
+286 silly gunzTarPerm modified mode [ 'lib/parser.js', 438, 420 ]
+287 silly gunzTarPerm extractEntry lib/runtime.js
+288 silly gunzTarPerm modified mode [ 'lib/runtime.js', 438, 420 ]
+289 silly gunzTarPerm extractEntry lib/utils.js
+290 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+291 silly gunzTarPerm extractEntry lib/jade.js
+292 silly gunzTarPerm modified mode [ 'lib/jade.js', 438, 420 ]
+293 silly gunzTarPerm extractEntry lib/nodes/attrs.js
+294 silly gunzTarPerm modified mode [ 'lib/nodes/attrs.js', 438, 420 ]
+295 silly gunzTarPerm extractEntry lib/nodes/code.js
+296 silly gunzTarPerm modified mode [ 'lib/nodes/code.js', 438, 420 ]
+297 silly gunzTarPerm extractEntry lib/nodes/comment.js
+298 silly gunzTarPerm modified mode [ 'lib/nodes/comment.js', 438, 420 ]
+299 silly gunzTarPerm extractEntry lib/nodes/doctype.js
+300 silly gunzTarPerm modified mode [ 'lib/nodes/doctype.js', 438, 420 ]
+301 silly gunzTarPerm extractEntry lib/nodes/case.js
+302 silly gunzTarPerm modified mode [ 'lib/nodes/case.js', 438, 420 ]
+303 silly gunzTarPerm extractEntry lib/nodes/filter.js
+304 silly gunzTarPerm modified mode [ 'lib/nodes/filter.js', 438, 420 ]
+305 silly gunzTarPerm extractEntry lib/nodes/index.js
+306 silly gunzTarPerm modified mode [ 'lib/nodes/index.js', 438, 420 ]
+307 silly gunzTarPerm extractEntry lib/nodes/literal.js
+308 silly gunzTarPerm modified mode [ 'lib/nodes/literal.js', 438, 420 ]
+309 silly gunzTarPerm extractEntry lib/nodes/mixin.js
+310 silly gunzTarPerm modified mode [ 'lib/nodes/mixin.js', 438, 420 ]
+311 silly gunzTarPerm extractEntry lib/nodes/node.js
+312 silly gunzTarPerm modified mode [ 'lib/nodes/node.js', 438, 420 ]
+313 silly gunzTarPerm extractEntry lib/nodes/block.js
+314 silly gunzTarPerm modified mode [ 'lib/nodes/block.js', 438, 420 ]
+315 silly gunzTarPerm extractEntry lib/nodes/tag.js
+316 silly gunzTarPerm modified mode [ 'lib/nodes/tag.js', 438, 420 ]
+317 silly gunzTarPerm extractEntry lib/nodes/block-comment.js
+318 silly gunzTarPerm modified mode [ 'lib/nodes/block-comment.js', 438, 420 ]
+319 silly gunzTarPerm extractEntry lib/nodes/text.js
+320 silly gunzTarPerm modified mode [ 'lib/nodes/text.js', 438, 420 ]
+321 silly gunzTarPerm extractEntry lib/nodes/each.js
+322 silly gunzTarPerm modified mode [ 'lib/nodes/each.js', 438, 420 ]
+323 silly gunzTarPerm extractEntry jade-language.md
+324 silly gunzTarPerm modified mode [ 'jade-language.md', 438, 420 ]
+325 silly gunzTarPerm extractEntry component.json
+326 silly gunzTarPerm modified mode [ 'component.json', 438, 420 ]
+327 silly gunzTarPerm extractEntry Readme.md
+328 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+329 silly gunzTarPerm extractEntry Readme_zh-cn.md
+330 silly gunzTarPerm modified mode [ 'Readme_zh-cn.md', 438, 420 ]
+331 silly gunzTarPerm extractEntry jade.md
+332 silly gunzTarPerm modified mode [ 'jade.md', 438, 420 ]
+333 verbose read json C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package\package.json
+334 silly lockFile 207272bc-ng-npm-cache-jade-0-35-0-package C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package
+335 silly shasum updated bytes 40960
+336 silly shasum updated bytes 40960
+337 silly shasum updated bytes 40960
+338 silly shasum updated bytes 21843
+339 info shasum d32fd0b216e3ea6c66cf110807e0817592f1e76e
+339 info shasum C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package.tgz
+340 verbose from cache C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package\package.json
+341 verbose chmod C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package.tgz 644
+342 silly chown skipping for windows C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package.tgz
+343 silly lockFile e3a04c21-y-npmjs-org-jade-jade-0-35-0-tgz https://registry.npmjs.org/jade/-/jade-0.35.0.tgz
+344 silly lockFile 606948c4-jade-0-35-0 jade@0.35.0
+345 silly lockFile ad03ed78-jade jade@*
+346 silly resolved [ { name: 'express',
+346 silly resolved     description: 'Sinatra inspired web development framework',
+346 silly resolved     version: '3.2.4',
+346 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+346 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+346 silly resolved     dependencies:
+346 silly resolved      { connect: '2.7.9',
+346 silly resolved        commander: '0.6.1',
+346 silly resolved        'range-parser': '0.0.4',
+346 silly resolved        mkdirp: '0.3.4',
+346 silly resolved        cookie: '0.0.5',
+346 silly resolved        'buffer-crc32': '0.2.1',
+346 silly resolved        fresh: '0.1.0',
+346 silly resolved        methods: '0.0.1',
+346 silly resolved        send: '0.1.0',
+346 silly resolved        'cookie-signature': '1.0.1',
+346 silly resolved        debug: '*' },
+346 silly resolved     devDependencies:
+346 silly resolved      { ejs: '*',
+346 silly resolved        mocha: '*',
+346 silly resolved        jade: '*',
+346 silly resolved        hjs: '*',
+346 silly resolved        stylus: '*',
+346 silly resolved        should: '*',
+346 silly resolved        'connect-redis': '*',
+346 silly resolved        'github-flavored-markdown': '*',
+346 silly resolved        supertest: '0.6.0' },
+346 silly resolved     keywords:
+346 silly resolved      [ 'express',
+346 silly resolved        'framework',
+346 silly resolved        'sinatra',
+346 silly resolved        'web',
+346 silly resolved        'rest',
+346 silly resolved        'restful',
+346 silly resolved        'router',
+346 silly resolved        'app',
+346 silly resolved        'api' ],
+346 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express' },
+346 silly resolved     main: 'index',
+346 silly resolved     bin: { express: './bin/express' },
+346 silly resolved     scripts: { prepublish: 'npm prune', test: 'make test' },
+346 silly resolved     engines: { node: '*' },
+346 silly resolved     readme: '![express logo](http://f.cl.ly/items/0V2S1n0K1i3y1c122g04/Screen%20Shot%202012-04-11%20at%209.59.42%20AM.png)\n\n  Fast, unopinionated, minimalist web framework for [node](http://nodejs.org). [![Build Status](https://secure.travis-ci.org/visionmedia/express.png)](http://travis-ci.org/visionmedia/express) [![Dependency Status](https://gemnasium.com/visionmedia/express.png)](https://gemnasium.com/visionmedia/express)\n\n```js\nvar express = require(\'express\');\nvar app = express();\n\napp.get(\'/\', function(req, res){\n  res.send(\'Hello World\');\n});\n\napp.listen(3000);\n```\n\n## Installation\n\n    $ npm install -g express\n\n## Quick Start\n\n The quickest way to get started with express is to utilize the executable `express(1)` to generate an application as shown below:\n\n Create the app:\n\n    $ npm install -g express\n    $ express /tmp/foo && cd /tmp/foo\n\n Install dependencies:\n\n    $ npm install\n\n Start the server:\n\n    $ node app\n\n## Features\n\n  * Built on [Connect](http://github.com/senchalabs/connect)\n  * Robust routing\n  * HTTP helpers (redirection, caching, etc)\n  * View system supporting 14+ template engines\n  * Content negotiation\n  * Focus on high performance\n  * Environment based configuration\n  * Executable for generating applications quickly\n  * High test coverage\n\n## Philosophy\n\n  The Express philosophy is to provide small, robust tooling for HTTP servers. Making\n  it a great solution for single page applications, web sites, hybrids, or public\n  HTTP APIs.\n\n  Built on Connect you can use _only_ what you need, and nothing more, applications\n  can be as big or as small as you like, even a single file. Express does\n  not force you to use any specific ORM or template engine. With support for over\n  14 template engines via [Consolidate.js](http://github.com/visionmedia/consolidate.js)\n  you can quickly craft your perfect framework.\n\n## More Information\n\n  * Join #express on freenode\n  * [Google Group](http://groups.google.com/group/express-js) for discussion\n  * Follow [tjholowaychuk](http://twitter.com/tjholowaychuk) on twitter for updates\n  * Visit the [Wiki](http://github.com/visionmedia/express/wiki)\n  * [日本語ドキュメンテーション](http://hideyukisaito.com/doc/expressjs/) by [hideyukisaito](https://github.com/hideyukisaito)\n  * [Русскоязычная документация](http://jsman.ru/express/)\n  * Run express examples [online](https://runnable.com/express)\n\n## Viewing Examples\n\nClone the Express repo, then install the dev dependencies to install all the example / test suite deps:\n\n    $ git clone git://github.com/visionmedia/express.git --depth 1\n    $ cd express\n    $ npm install\n\nthen run whichever tests you want:\n\n    $ node examples/content-negotiation\n\n## Running Tests\n\nTo run the test suite first invoke the following command within the repo, installing the development dependencies:\n\n    $ npm install\n\nthen run the tests:\n\n    $ make test\n\n## Contributors\n\n```\nproject: express\ncommits: 3559\nactive : 468 days\nfiles  : 237\nauthors:\n 1891\tTj Holowaychuk          53.1%\n 1285\tvisionmedia             36.1%\n  182\tTJ Holowaychuk          5.1%\n   54\tAaron Heckmann          1.5%\n   34\tcsausdev                1.0%\n   26\tciaranj                 0.7%\n   21\tRobert Sköld            0.6%\n    6\tGuillermo Rauch         0.2%\n    3\tDav Glass               0.1%\n    3\tNick Poulden            0.1%\n    2\tRandy Merrill           0.1%\n    2\tBenny Wong              0.1%\n    2\tHunter Loftis           0.1%\n    2\tJake Gordon             0.1%\n    2\tBrian McKinney          0.1%\n    2\tRoman Shtylman          0.1%\n    2\tBen Weaver              0.1%\n    2\tDave Hoover             0.1%\n    2\tEivind Fjeldstad        0.1%\n    2\tDaniel Shaw             0.1%\n    1\tMatt Colyer             0.0%\n    1\tPau Ramon               0.0%\n    1\tPero Pejovic            0.0%\n    1\tPeter Rekdal Sunde      0.0%\n    1\tRaynos                  0.0%\n    1\tTeng Siong Ong          0.0%\n    1\tViktor Kelemen          0.0%\n    1\tctide                   0.0%\n    1\t8bitDesigner            0.0%\n    1\tisaacs                  0.0%\n    1\tmgutz                   0.0%\n    1\tpikeas                  0.0%\n    1\tshuwatto                0.0%\n    1\ttstrimple               0.0%\n    1\tewoudj                  0.0%\n    1\tAdam Sanderson          0.0%\n    1\tAndrii Kostenko         0.0%\n    1\tAndy Hiew               0.0%\n    1\tArpad Borsos            0.0%\n    1\tAshwin Purohit          0.0%\n    1\tBenjen                  0.0%\n    1\tDarren Torpey           0.0%\n    1\tGreg Ritter             0.0%\n    1\tGregory Ritter          0.0%\n    1\tJames Herdman           0.0%\n    1\tJim Snodgrass           0.0%\n    1\tJoe McCann              0.0%\n    1\tJonathan Dumaine        0.0%\n    1\tJonathan Palardy        0.0%\n    1\tJonathan Zacsh          0.0%\n    1\tJustin Lilly            0.0%\n    1\tKen Sato                0.0%\n    1\tMaciej Małecki          0.0%\n    1\tMasahiro Hayashi        0.0%\n```\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2009-2012 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+346 silly resolved     readmeFilename: 'Readme.md',
+346 silly resolved     _id: 'express@3.2.4',
+346 silly resolved     dist: { shasum: '929c85d0d9491f4a7107cdb6bc0fe94af9a5f148' },
+346 silly resolved     _from: 'express@3.2.4' },
+346 silly resolved   { name: 'jade',
+346 silly resolved     description: 'Jade template engine',
+346 silly resolved     version: '0.35.0',
+346 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+346 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/jade' },
+346 silly resolved     main: './index.js',
+346 silly resolved     bin: { jade: './bin/jade' },
+346 silly resolved     man: [ './jade.1' ],
+346 silly resolved     dependencies:
+346 silly resolved      { commander: '2.0.0',
+346 silly resolved        mkdirp: '0.3.x',
+346 silly resolved        transformers: '2.1.0',
+346 silly resolved        'character-parser': '1.2.0',
+346 silly resolved        monocle: '1.1.50',
+346 silly resolved        with: '~1.1.0',
+346 silly resolved        constantinople: '~1.0.1' },
+346 silly resolved     devDependencies:
+346 silly resolved      { 'coffee-script': '*',
+346 silly resolved        mocha: '*',
+346 silly resolved        markdown: '*',
+346 silly resolved        stylus: '*',
+346 silly resolved        uubench: '*',
+346 silly resolved        should: '*',
+346 silly resolved        less: '*',
+346 silly resolved        'uglify-js': '*',
+346 silly resolved        browserify: '*',
+346 silly resolved        linify: '*' },
+346 silly resolved     component: { scripts: [Object] },
+346 silly resolved     scripts:
+346 silly resolved      { test: 'mocha -R spec',
+346 silly resolved        prepublish: 'npm prune && linify transform bin && npm run build',
+346 silly resolved        build: 'npm run compile',
+346 silly resolved        compile: 'npm run compile-full && npm run compile-runtime',
+346 silly resolved        'compile-full': 'browserify ./lib/jade.js --standalone jade -x ./node_modules/transformers > jade.js',
+346 silly resolved        'compile-runtime': 'browserify ./lib/runtime.js --standalone jade > runtime.js' },
+346 silly resolved     browser: { './lib/filters.js': './lib/filters-client.js' },
+346 silly resolved     readme: '# [![Jade - template engine ](http://i.imgur.com/5zf2aVt.png)](http://jade-lang.com/)\r\n\r\nFull documentation is at [jade-lang.com](http://jade-lang.com/)\r\n\r\n Jade is a high performance template engine heavily influenced by [Haml](http://haml-lang.com)\r\n and implemented with JavaScript for [node](http://nodejs.org). For discussion join the [Google Group](http://groups.google.com/group/jadejs).\r\n\r\n You can test drive Jade online [here](http://naltatis.github.com/jade-syntax-docs).\r\n\r\n [![Build Status](https://travis-ci.org/visionmedia/jade.png?branch=master)](https://travis-ci.org/visionmedia/jade)\r\n [![Dependency Status](https://gemnasium.com/visionmedia/jade.png)](https://gemnasium.com/visionmedia/jade)\r\n [![NPM version](https://badge.fury.io/js/jade.png)](http://badge.fury.io/js/jade)\r\n\r\n## Announcements\r\n\r\n**Deprecation of implicit script/style text-only:**\r\n\r\n Jade version 0.31.0 deprecated implicit text only support for scripts and styles.  To fix this all you need to do is add a `.` character after the script or style tag.\r\n\r\n It is hoped that this change will make Jade easier for newcomers to learn without affecting the power of the language or leading to excessive verboseness.\r\n\r\n If you have a lot of Jade files that need fixing you can use [fix-jade](https://github.com/ForbesLindesay/fix-jade) to attempt to automate the process.\r\n\r\n**Command line option change:**\r\n\r\nsince `v0.31.0`, `-o` is preferred for `--out` where we used `-O` before.\r\n\r\n## Installation\r\n\r\nvia npm:\r\n\r\n```bash\r\n$ npm install jade\r\n```\r\n\r\n## Syntax\r\n\r\nJade is a clean, whitespace sensitive syntax for writing html.  Here is a simple example:\r\n\r\n```jade\r\ndoctype 5\r\nhtml(lang="en")\r\n  head\r\n    title= pageTitle\r\n    script(type=\'text/javascript\').\r\n      if (foo) bar(1 + 5)\r\n  body\r\n    h1 Jade - node template engine\r\n    #container.col\r\n      if youAreUsingJade\r\n        p You are amazing\r\n      else\r\n        p Get on it!\r\n      p.\r\n        Jade is a terse and simple templating language with a\r\n        strong focus on performance and powerful features.\r\n```\r\n\r\nbecomes\r\n\r\n\r\n```html\r\n<!DOCTYPE html>\r\n<html lang="en">\r\n  <head>\r\n    <title>Jade</title>\r\n    <script type="text/javascript">\r\n      if (foo) bar(1 + 5)\r\n    </script>\r\n  </head>\r\n  <body>\r\n    <h1>Jade - node template engine</h1>\r\n    <div id="container" class="col">\r\n      <p>You are amazing</p>\r\n      <p>Jade is a terse and simple templating language with a strong focus on performance and powerful features.</p>\r\n    </div>\r\n  </body>\r\n</html>\r\n```\r\n\r\nThe official [jade tutorial](http://jade-lang.com/tutorial/) is a great place to start.  While that (and the syntax documentation) is being finished, you can view some of the old documentation [here](https://github.com/visionmedia/jade/blob/master/jade.md) and [here](https://github.com/visionmedia/jade/blob/master/jade-language.md)\r\n\r\n## API\r\n\r\nFor full API, see [jade-lang.com/api](http://jade-lang.com/api/)\r\n\r\n```js\r\nvar jade = require(\'jade\');\r\n\r\n// compile\r\nvar fn = jade.compile(\'string of jade\', options);\r\nvar html = fn(locals);\r\n\r\n// render\r\nvar html = jade.render(\'string of jade\', merge(options, locals));\r\n\r\n// renderFile\r\nvar html = jade.renderFile(\'filename.jade\', merge(options, locals));\r\n```\r\n\r\n### Options\r\n\r\n - `filename`  Used in exceptions, and required when using includes\r\n - `compileDebug`  When `false` no debug instrumentation is compiled\r\n - `pretty`    Add pretty-indentation whitespace to output _(false by default)_\r\n\r\n## Browser Support\r\n\r\n The latest version of jade can be download for the browser in standalone form from [here](https://github.com/visionmedia/jade/raw/master/jade.js).  It only supports the very latest browsers though, and is a large file.  It is recommended that you pre-compile your jade templates to JavaScript and then just use the [runtime.js](https://github.com/visionmedia/jade/raw/master/runtime.js) library on the client.\r\n\r\n To compile a template for use on the client using the command line, do:\r\n\r\n```console\r\n$ jade --client --no-debug filename.jade\r\n```\r\n\r\nwhich will produce `filename.js` containing the compiled template.\r\n\r\n## Command Line\r\n\r\nAfter installing the latest version of [node](http://nodejs.org/), install with:\r\n\r\n```console\r\n$ npm install jade -g\r\n```\r\n\r\nand run with\r\n\r\n```console\r\n$ jade --help\r\n```\r\n\r\n## Additional Resources\r\n\r\nTutorials:\r\n\r\n  - cssdeck interactive [Jade syntax tutorial](http://cssdeck.com/labs/learning-the-jade-templating-engine-syntax)\r\n  - cssdeck interactive [Jade logic tutorial](http://cssdeck.com/labs/jade-templating-tutorial-codecast-part-2)\r\n  - in [Japanese](http://blog.craftgear.net/4f501e97c1347ec934000001/title/10%E5%88%86%E3%81%A7%E3%82%8F%E3%81%8B%E3%82%8Bjade%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3)\r\n\r\n\r\nImplementations in other languages:\r\n\r\n  - [php](http://github.com/everzet/jade.php)\r\n  - [scala](http://scalate.fusesource.org/versions/snapshot/documentation/scaml-reference.html)\r\n  - [ruby](https://github.com/slim-template/slim)\r\n  - [python](https://github.com/SyrusAkbary/pyjade)\r\n  - [java](https://github.com/neuland/jade4j)\r\n\r\nOther:\r\n\r\n  - [Emacs Mode](https://github.com/brianc/jade-mode)\r\n  - [Vim Syntax](https://github.com/digitaltoad/vim-jade)\r\n  - [TextMate Bundle](http://github.com/miksago/jade-tmbundle)\r\n  - [Coda/SubEtha syntax Mode](https://github.com/aaronmccall/jade.mode)\r\n  - [Screencasts](http://tjholowaychuk.com/post/1004255394/jade-screencast-template-engine-for-nodejs)\r\n  - [html2jade](https://github.com/donpark/html2jade) converter\r\n\r\n## License\r\n\r\nMIT\r\n',
+346 silly resolved     readmeFilename: 'Readme.md',
+346 silly resolved     _id: 'jade@0.35.0',
+346 silly resolved     dist: { shasum: 'd32fd0b216e3ea6c66cf110807e0817592f1e76e' },
+346 silly resolved     _from: 'jade@*' } ]
+347 info install express@3.2.4 into D:\node_js_project\star_adapter
+348 info install jade@0.35.0 into D:\node_js_project\star_adapter
+349 info installOne express@3.2.4
+350 info installOne jade@0.35.0
+351 verbose from cache C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package\package.json
+352 info D:\node_js_project\star_adapter\node_modules\express unbuild
+353 verbose read json D:\node_js_project\star_adapter\node_modules\express\package.json
+354 verbose from cache C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package\package.json
+355 info D:\node_js_project\star_adapter\node_modules\jade unbuild
+356 verbose read json D:\node_js_project\star_adapter\node_modules\jade\package.json
+357 verbose tar unpack C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\express\3.2.4\package.tgz
+358 silly lockFile d9e451ce-tar-adapter-node-modules-express D:\node_js_project\star_adapter\node_modules\express
+359 verbose lock D:\node_js_project\star_adapter\node_modules\express C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\d9e451ce-tar-adapter-node-modules-express.lock
+360 verbose tar unpack C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\jade\0.35.0\package.tgz
+361 silly lockFile fd1f5092-t-star-adapter-node-modules-jade D:\node_js_project\star_adapter\node_modules\jade
+362 verbose lock D:\node_js_project\star_adapter\node_modules\jade C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\fd1f5092-t-star-adapter-node-modules-jade.lock
+363 silly gunzTarPerm modes [ '755', '644' ]
+364 silly gunzTarPerm modes [ '755', '644' ]
+365 silly gunzTarPerm extractEntry package.json
+366 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+367 silly gunzTarPerm extractEntry package.json
+368 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+369 silly gunzTarPerm extractEntry .npmignore
+370 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+371 silly gunzTarPerm extractEntry LICENSE
+372 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+373 silly gunzTarPerm extractEntry .npmignore
+374 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+375 silly gunzTarPerm extractEntry LICENSE
+376 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+377 silly gunzTarPerm extractEntry index.js
+378 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+379 silly gunzTarPerm extractEntry .travis.yml
+380 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+381 silly gunzTarPerm extractEntry index.js
+382 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+383 silly gunzTarPerm extractEntry jade.js
+384 silly gunzTarPerm modified mode [ 'jade.js', 438, 420 ]
+385 silly gunzTarPerm extractEntry bin/express
+386 silly gunzTarPerm modified mode [ 'bin/express', 438, 420 ]
+387 silly gunzTarPerm extractEntry History.md
+388 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+389 silly gunzTarPerm extractEntry lib/application.js
+390 silly gunzTarPerm modified mode [ 'lib/application.js', 438, 420 ]
+391 silly gunzTarPerm extractEntry lib/express.js
+392 silly gunzTarPerm modified mode [ 'lib/express.js', 438, 420 ]
+393 silly gunzTarPerm extractEntry runtime.js
+394 silly gunzTarPerm modified mode [ 'runtime.js', 438, 420 ]
+395 silly gunzTarPerm extractEntry bin/jade
+396 silly gunzTarPerm modified mode [ 'bin/jade', 438, 420 ]
+397 silly gunzTarPerm extractEntry lib/compiler.js
+398 silly gunzTarPerm modified mode [ 'lib/compiler.js', 438, 420 ]
+399 silly gunzTarPerm extractEntry lib/middleware.js
+400 silly gunzTarPerm modified mode [ 'lib/middleware.js', 438, 420 ]
+401 silly gunzTarPerm extractEntry lib/request.js
+402 silly gunzTarPerm modified mode [ 'lib/request.js', 438, 420 ]
+403 silly gunzTarPerm extractEntry lib/filters-client.js
+404 silly gunzTarPerm modified mode [ 'lib/filters-client.js', 438, 420 ]
+405 silly gunzTarPerm extractEntry lib/filters.js
+406 silly gunzTarPerm modified mode [ 'lib/filters.js', 438, 420 ]
+407 silly gunzTarPerm extractEntry lib/index.js
+408 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+409 silly gunzTarPerm extractEntry lib/inline-tags.js
+410 silly gunzTarPerm modified mode [ 'lib/inline-tags.js', 438, 420 ]
+411 silly gunzTarPerm extractEntry lib/response.js
+412 silly gunzTarPerm modified mode [ 'lib/response.js', 438, 420 ]
+413 silly gunzTarPerm extractEntry lib/utils.js
+414 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+415 silly gunzTarPerm extractEntry lib/doctypes.js
+416 silly gunzTarPerm modified mode [ 'lib/doctypes.js', 438, 420 ]
+417 silly gunzTarPerm extractEntry lib/view.js
+418 silly gunzTarPerm modified mode [ 'lib/view.js', 438, 420 ]
+419 silly gunzTarPerm extractEntry lib/lexer.js
+420 silly gunzTarPerm modified mode [ 'lib/lexer.js', 438, 420 ]
+421 silly gunzTarPerm extractEntry lib/router/index.js
+422 silly gunzTarPerm modified mode [ 'lib/router/index.js', 438, 420 ]
+423 silly gunzTarPerm extractEntry lib/self-closing.js
+424 silly gunzTarPerm modified mode [ 'lib/self-closing.js', 438, 420 ]
+425 silly gunzTarPerm extractEntry lib/router/route.js
+426 silly gunzTarPerm modified mode [ 'lib/router/route.js', 438, 420 ]
+427 silly gunzTarPerm extractEntry lib/parser.js
+428 silly gunzTarPerm modified mode [ 'lib/parser.js', 438, 420 ]
+429 silly gunzTarPerm extractEntry Makefile
+430 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+431 silly gunzTarPerm extractEntry lib/runtime.js
+432 silly gunzTarPerm modified mode [ 'lib/runtime.js', 438, 420 ]
+433 silly gunzTarPerm extractEntry lib/utils.js
+434 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+435 silly gunzTarPerm extractEntry lib/jade.js
+436 silly gunzTarPerm modified mode [ 'lib/jade.js', 438, 420 ]
+437 silly gunzTarPerm extractEntry lib/nodes/attrs.js
+438 silly gunzTarPerm modified mode [ 'lib/nodes/attrs.js', 438, 420 ]
+439 silly gunzTarPerm extractEntry lib/nodes/code.js
+440 silly gunzTarPerm modified mode [ 'lib/nodes/code.js', 438, 420 ]
+441 silly gunzTarPerm extractEntry lib/nodes/comment.js
+442 silly gunzTarPerm modified mode [ 'lib/nodes/comment.js', 438, 420 ]
+443 silly gunzTarPerm extractEntry lib/nodes/doctype.js
+444 silly gunzTarPerm modified mode [ 'lib/nodes/doctype.js', 438, 420 ]
+445 silly gunzTarPerm extractEntry Readme.md
+446 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+447 silly gunzTarPerm extractEntry lib/nodes/case.js
+448 silly gunzTarPerm modified mode [ 'lib/nodes/case.js', 438, 420 ]
+449 silly gunzTarPerm extractEntry lib/nodes/filter.js
+450 silly gunzTarPerm modified mode [ 'lib/nodes/filter.js', 438, 420 ]
+451 silly gunzTarPerm extractEntry lib/nodes/index.js
+452 silly gunzTarPerm modified mode [ 'lib/nodes/index.js', 438, 420 ]
+453 silly gunzTarPerm extractEntry lib/nodes/literal.js
+454 silly gunzTarPerm modified mode [ 'lib/nodes/literal.js', 438, 420 ]
+455 silly gunzTarPerm extractEntry lib/nodes/mixin.js
+456 silly gunzTarPerm modified mode [ 'lib/nodes/mixin.js', 438, 420 ]
+457 silly gunzTarPerm extractEntry lib/nodes/node.js
+458 silly gunzTarPerm modified mode [ 'lib/nodes/node.js', 438, 420 ]
+459 silly gunzTarPerm extractEntry lib/nodes/block.js
+460 silly gunzTarPerm modified mode [ 'lib/nodes/block.js', 438, 420 ]
+461 silly gunzTarPerm extractEntry lib/nodes/tag.js
+462 silly gunzTarPerm modified mode [ 'lib/nodes/tag.js', 438, 420 ]
+463 silly gunzTarPerm extractEntry lib/nodes/block-comment.js
+464 silly gunzTarPerm modified mode [ 'lib/nodes/block-comment.js', 438, 420 ]
+465 silly gunzTarPerm extractEntry lib/nodes/text.js
+466 silly gunzTarPerm modified mode [ 'lib/nodes/text.js', 438, 420 ]
+467 silly gunzTarPerm extractEntry lib/nodes/each.js
+468 silly gunzTarPerm modified mode [ 'lib/nodes/each.js', 438, 420 ]
+469 silly gunzTarPerm extractEntry jade-language.md
+470 silly gunzTarPerm modified mode [ 'jade-language.md', 438, 420 ]
+471 silly gunzTarPerm extractEntry component.json
+472 silly gunzTarPerm modified mode [ 'component.json', 438, 420 ]
+473 silly gunzTarPerm extractEntry Readme.md
+474 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+475 silly gunzTarPerm extractEntry Readme_zh-cn.md
+476 silly gunzTarPerm modified mode [ 'Readme_zh-cn.md', 438, 420 ]
+477 silly gunzTarPerm extractEntry jade.md
+478 silly gunzTarPerm modified mode [ 'jade.md', 438, 420 ]
+479 verbose read json D:\node_js_project\star_adapter\node_modules\express\package.json
+480 silly lockFile d9e451ce-tar-adapter-node-modules-express D:\node_js_project\star_adapter\node_modules\express
+481 info preinstall express@3.2.4
+482 verbose from cache D:\node_js_project\star_adapter\node_modules\express\package.json
+483 verbose readDependencies using package.json deps
+484 verbose from cache D:\node_js_project\star_adapter\node_modules\express\package.json
+485 verbose readDependencies using package.json deps
+486 verbose cache add [ 'range-parser@0.0.4', null ]
+487 silly cache add name=undefined spec="range-parser@0.0.4" args=["range-parser@0.0.4",null]
+488 verbose parsed url { pathname: 'range-parser@0.0.4',
+488 verbose parsed url   path: 'range-parser@0.0.4',
+488 verbose parsed url   href: 'range-parser@0.0.4' }
+489 silly cache add name="range-parser" spec="0.0.4" args=["range-parser","0.0.4"]
+490 verbose parsed url { pathname: '0.0.4', path: '0.0.4', href: '0.0.4' }
+491 verbose addNamed [ 'range-parser', '0.0.4' ]
+492 verbose addNamed [ '0.0.4', '0.0.4' ]
+493 silly lockFile 0760c556-range-parser-0-0-4 range-parser@0.0.4
+494 verbose lock range-parser@0.0.4 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\0760c556-range-parser-0-0-4.lock
+495 verbose cache add [ 'mkdirp@0.3.4', null ]
+496 silly cache add name=undefined spec="mkdirp@0.3.4" args=["mkdirp@0.3.4",null]
+497 verbose parsed url { pathname: 'mkdirp@0.3.4',
+497 verbose parsed url   path: 'mkdirp@0.3.4',
+497 verbose parsed url   href: 'mkdirp@0.3.4' }
+498 silly cache add name="mkdirp" spec="0.3.4" args=["mkdirp","0.3.4"]
+499 verbose parsed url { pathname: '0.3.4', path: '0.3.4', href: '0.3.4' }
+500 verbose addNamed [ 'mkdirp', '0.3.4' ]
+501 verbose addNamed [ '0.3.4', '0.3.4' ]
+502 silly lockFile 86f43333-mkdirp-0-3-4 mkdirp@0.3.4
+503 verbose lock mkdirp@0.3.4 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\86f43333-mkdirp-0-3-4.lock
+504 verbose cache add [ 'cookie@0.0.5', null ]
+505 silly cache add name=undefined spec="cookie@0.0.5" args=["cookie@0.0.5",null]
+506 verbose parsed url { pathname: 'cookie@0.0.5',
+506 verbose parsed url   path: 'cookie@0.0.5',
+506 verbose parsed url   href: 'cookie@0.0.5' }
+507 silly cache add name="cookie" spec="0.0.5" args=["cookie","0.0.5"]
+508 verbose parsed url { pathname: '0.0.5', path: '0.0.5', href: '0.0.5' }
+509 verbose addNamed [ 'cookie', '0.0.5' ]
+510 verbose addNamed [ '0.0.5', '0.0.5' ]
+511 silly lockFile fe08ced7-cookie-0-0-5 cookie@0.0.5
+512 verbose lock cookie@0.0.5 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\fe08ced7-cookie-0-0-5.lock
+513 verbose cache add [ 'buffer-crc32@0.2.1', null ]
+514 silly cache add name=undefined spec="buffer-crc32@0.2.1" args=["buffer-crc32@0.2.1",null]
+515 verbose parsed url { pathname: 'buffer-crc32@0.2.1',
+515 verbose parsed url   path: 'buffer-crc32@0.2.1',
+515 verbose parsed url   href: 'buffer-crc32@0.2.1' }
+516 silly cache add name="buffer-crc32" spec="0.2.1" args=["buffer-crc32","0.2.1"]
+517 verbose parsed url { pathname: '0.2.1', path: '0.2.1', href: '0.2.1' }
+518 verbose addNamed [ 'buffer-crc32', '0.2.1' ]
+519 verbose addNamed [ '0.2.1', '0.2.1' ]
+520 silly lockFile 057d0d26-buffer-crc32-0-2-1 buffer-crc32@0.2.1
+521 verbose lock buffer-crc32@0.2.1 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\057d0d26-buffer-crc32-0-2-1.lock
+522 verbose cache add [ 'fresh@0.1.0', null ]
+523 silly cache add name=undefined spec="fresh@0.1.0" args=["fresh@0.1.0",null]
+524 verbose parsed url { pathname: 'fresh@0.1.0',
+524 verbose parsed url   path: 'fresh@0.1.0',
+524 verbose parsed url   href: 'fresh@0.1.0' }
+525 silly cache add name="fresh" spec="0.1.0" args=["fresh","0.1.0"]
+526 verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+527 verbose addNamed [ 'fresh', '0.1.0' ]
+528 verbose addNamed [ '0.1.0', '0.1.0' ]
+529 silly lockFile 3dea7da8-fresh-0-1-0 fresh@0.1.0
+530 verbose lock fresh@0.1.0 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\3dea7da8-fresh-0-1-0.lock
+531 verbose cache add [ 'methods@0.0.1', null ]
+532 silly cache add name=undefined spec="methods@0.0.1" args=["methods@0.0.1",null]
+533 verbose parsed url { pathname: 'methods@0.0.1',
+533 verbose parsed url   path: 'methods@0.0.1',
+533 verbose parsed url   href: 'methods@0.0.1' }
+534 silly cache add name="methods" spec="0.0.1" args=["methods","0.0.1"]
+535 verbose parsed url { pathname: '0.0.1', path: '0.0.1', href: '0.0.1' }
+536 verbose addNamed [ 'methods', '0.0.1' ]
+537 verbose addNamed [ '0.0.1', '0.0.1' ]
+538 silly lockFile 209c2920-methods-0-0-1 methods@0.0.1
+539 verbose lock methods@0.0.1 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\209c2920-methods-0-0-1.lock
+540 verbose cache add [ 'send@0.1.0', null ]
+541 silly cache add name=undefined spec="send@0.1.0" args=["send@0.1.0",null]
+542 verbose parsed url { pathname: 'send@0.1.0',
+542 verbose parsed url   path: 'send@0.1.0',
+542 verbose parsed url   href: 'send@0.1.0' }
+543 silly cache add name="send" spec="0.1.0" args=["send","0.1.0"]
+544 verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+545 verbose addNamed [ 'send', '0.1.0' ]
+546 verbose addNamed [ '0.1.0', '0.1.0' ]
+547 silly lockFile ef2886cd-send-0-1-0 send@0.1.0
+548 verbose lock send@0.1.0 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\ef2886cd-send-0-1-0.lock
+549 verbose cache add [ 'cookie-signature@1.0.1', null ]
+550 silly cache add name=undefined spec="cookie-signature@1.0.1" args=["cookie-signature@1.0.1",null]
+551 verbose parsed url { pathname: 'cookie-signature@1.0.1',
+551 verbose parsed url   path: 'cookie-signature@1.0.1',
+551 verbose parsed url   href: 'cookie-signature@1.0.1' }
+552 silly cache add name="cookie-signature" spec="1.0.1" args=["cookie-signature","1.0.1"]
+553 verbose parsed url { pathname: '1.0.1', path: '1.0.1', href: '1.0.1' }
+554 verbose addNamed [ 'cookie-signature', '1.0.1' ]
+555 verbose addNamed [ '1.0.1', '1.0.1' ]
+556 silly lockFile d4a1eba1-cookie-signature-1-0-1 cookie-signature@1.0.1
+557 verbose lock cookie-signature@1.0.1 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\d4a1eba1-cookie-signature-1-0-1.lock
+558 verbose cache add [ 'debug@*', null ]
+559 silly cache add name=undefined spec="debug@*" args=["debug@*",null]
+560 verbose parsed url { pathname: 'debug@*', path: 'debug@*', href: 'debug@*' }
+561 silly cache add name="debug" spec="*" args=["debug","*"]
+562 verbose parsed url { pathname: '*', path: '*', href: '*' }
+563 verbose addNamed [ 'debug', '*' ]
+564 verbose addNamed [ null, '' ]
+565 silly lockFile 3ac45eff-debug debug@*
+566 verbose lock debug@* C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\3ac45eff-debug.lock
+567 verbose cache add [ 'connect@2.7.9', null ]
+568 silly cache add name=undefined spec="connect@2.7.9" args=["connect@2.7.9",null]
+569 verbose parsed url { pathname: 'connect@2.7.9',
+569 verbose parsed url   path: 'connect@2.7.9',
+569 verbose parsed url   href: 'connect@2.7.9' }
+570 silly cache add name="connect" spec="2.7.9" args=["connect","2.7.9"]
+571 verbose parsed url { pathname: '2.7.9', path: '2.7.9', href: '2.7.9' }
+572 verbose addNamed [ 'connect', '2.7.9' ]
+573 verbose addNamed [ '2.7.9', '2.7.9' ]
+574 silly lockFile 00d50ffd-connect-2-7-9 connect@2.7.9
+575 verbose lock connect@2.7.9 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\00d50ffd-connect-2-7-9.lock
+576 verbose cache add [ 'commander@0.6.1', null ]
+577 silly cache add name=undefined spec="commander@0.6.1" args=["commander@0.6.1",null]
+578 verbose parsed url { pathname: 'commander@0.6.1',
+578 verbose parsed url   path: 'commander@0.6.1',
+578 verbose parsed url   href: 'commander@0.6.1' }
+579 silly cache add name="commander" spec="0.6.1" args=["commander","0.6.1"]
+580 verbose parsed url { pathname: '0.6.1', path: '0.6.1', href: '0.6.1' }
+581 verbose addNamed [ 'commander', '0.6.1' ]
+582 verbose addNamed [ '0.6.1', '0.6.1' ]
+583 silly lockFile fa16a2ce-commander-0-6-1 commander@0.6.1
+584 verbose lock commander@0.6.1 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\fa16a2ce-commander-0-6-1.lock
+585 silly addNameRange { name: 'debug', range: '', hasData: false }
+586 verbose url raw methods/0.0.1
+587 verbose url resolving [ 'https://registry.npmjs.org/', './methods/0.0.1' ]
+588 verbose url resolved https://registry.npmjs.org/methods/0.0.1
+589 info trying registry request attempt 1 at 17:50:53
+590 verbose etag "27PNDVCR34N9PLUBD22E2N507"
+591 http GET https://registry.npmjs.org/methods/0.0.1
+592 verbose url raw cookie/0.0.5
+593 verbose url resolving [ 'https://registry.npmjs.org/', './cookie/0.0.5' ]
+594 verbose url resolved https://registry.npmjs.org/cookie/0.0.5
+595 info trying registry request attempt 1 at 17:50:53
+596 verbose etag "6LJN33H1HL085DMJE4P3CG40V"
+597 http GET https://registry.npmjs.org/cookie/0.0.5
+598 verbose url raw range-parser/0.0.4
+599 verbose url resolving [ 'https://registry.npmjs.org/', './range-parser/0.0.4' ]
+600 verbose url resolved https://registry.npmjs.org/range-parser/0.0.4
+601 info trying registry request attempt 1 at 17:50:53
+602 verbose etag "4LYQEZP7F0RJGVO8CMQ7D0ZM2"
+603 http GET https://registry.npmjs.org/range-parser/0.0.4
+604 verbose url raw buffer-crc32/0.2.1
+605 verbose url resolving [ 'https://registry.npmjs.org/', './buffer-crc32/0.2.1' ]
+606 verbose url resolved https://registry.npmjs.org/buffer-crc32/0.2.1
+607 info trying registry request attempt 1 at 17:50:53
+608 verbose etag "3MGT6DA4AJWA64BSFFNWXYKDA"
+609 http GET https://registry.npmjs.org/buffer-crc32/0.2.1
+610 verbose url raw fresh/0.1.0
+611 verbose url resolving [ 'https://registry.npmjs.org/', './fresh/0.1.0' ]
+612 verbose url resolved https://registry.npmjs.org/fresh/0.1.0
+613 info trying registry request attempt 1 at 17:50:53
+614 verbose etag "GJ32W9WQ9ABBY40CFQ8OX68Q"
+615 http GET https://registry.npmjs.org/fresh/0.1.0
+616 verbose url raw commander/0.6.1
+617 verbose url resolving [ 'https://registry.npmjs.org/', './commander/0.6.1' ]
+618 verbose url resolved https://registry.npmjs.org/commander/0.6.1
+619 info trying registry request attempt 1 at 17:50:53
+620 verbose etag "D7K1H7LZWS5MZ5237EITUFCEM"
+621 http GET https://registry.npmjs.org/commander/0.6.1
+622 verbose url raw send/0.1.0
+623 verbose url resolving [ 'https://registry.npmjs.org/', './send/0.1.0' ]
+624 verbose url resolved https://registry.npmjs.org/send/0.1.0
+625 info trying registry request attempt 1 at 17:50:53
+626 verbose etag "CTBGJUNY4PF9Y8G7O7HVZDQCH"
+627 http GET https://registry.npmjs.org/send/0.1.0
+628 verbose url raw mkdirp/0.3.4
+629 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp/0.3.4' ]
+630 verbose url resolved https://registry.npmjs.org/mkdirp/0.3.4
+631 info trying registry request attempt 1 at 17:50:53
+632 verbose etag "3ULD31ILDU86U22V4KQEZTLOL"
+633 http GET https://registry.npmjs.org/mkdirp/0.3.4
+634 verbose url raw debug
+635 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+636 verbose url resolved https://registry.npmjs.org/debug
+637 info trying registry request attempt 1 at 17:50:53
+638 verbose etag "2NQFBC5T4PM83LSCUT58F4178"
+639 http GET https://registry.npmjs.org/debug
+640 verbose url raw cookie-signature/1.0.1
+641 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-signature/1.0.1' ]
+642 verbose url resolved https://registry.npmjs.org/cookie-signature/1.0.1
+643 info trying registry request attempt 1 at 17:50:53
+644 verbose etag "CY3CKMUCU529W3Q2ALVZW8AUW"
+645 http GET https://registry.npmjs.org/cookie-signature/1.0.1
+646 verbose url raw connect/2.7.9
+647 verbose url resolving [ 'https://registry.npmjs.org/', './connect/2.7.9' ]
+648 verbose url resolved https://registry.npmjs.org/connect/2.7.9
+649 info trying registry request attempt 1 at 17:50:53
+650 verbose etag "8Q0S21TJEM8PE2S4E7Z44NYVK"
+651 http GET https://registry.npmjs.org/connect/2.7.9
+652 verbose read json D:\node_js_project\star_adapter\node_modules\jade\package.json
+653 silly lockFile fd1f5092-t-star-adapter-node-modules-jade D:\node_js_project\star_adapter\node_modules\jade
+654 info preinstall jade@0.35.0
+655 verbose from cache D:\node_js_project\star_adapter\node_modules\jade\package.json
+656 verbose readDependencies using package.json deps
+657 verbose from cache D:\node_js_project\star_adapter\node_modules\jade\package.json
+658 verbose readDependencies using package.json deps
+659 verbose cache add [ 'commander@2.0.0', null ]
+660 silly cache add name=undefined spec="commander@2.0.0" args=["commander@2.0.0",null]
+661 verbose parsed url { pathname: 'commander@2.0.0',
+661 verbose parsed url   path: 'commander@2.0.0',
+661 verbose parsed url   href: 'commander@2.0.0' }
+662 silly cache add name="commander" spec="2.0.0" args=["commander","2.0.0"]
+663 verbose parsed url { pathname: '2.0.0', path: '2.0.0', href: '2.0.0' }
+664 verbose addNamed [ 'commander', '2.0.0' ]
+665 verbose addNamed [ '2.0.0', '2.0.0' ]
+666 silly lockFile d5315eb7-commander-2-0-0 commander@2.0.0
+667 verbose lock commander@2.0.0 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\d5315eb7-commander-2-0-0.lock
+668 verbose cache add [ 'mkdirp@0.3.x', null ]
+669 silly cache add name=undefined spec="mkdirp@0.3.x" args=["mkdirp@0.3.x",null]
+670 verbose parsed url { pathname: 'mkdirp@0.3.x',
+670 verbose parsed url   path: 'mkdirp@0.3.x',
+670 verbose parsed url   href: 'mkdirp@0.3.x' }
+671 silly cache add name="mkdirp" spec="0.3.x" args=["mkdirp","0.3.x"]
+672 verbose parsed url { pathname: '0.3.x', path: '0.3.x', href: '0.3.x' }
+673 verbose addNamed [ 'mkdirp', '0.3.x' ]
+674 verbose addNamed [ null, '>=0.3.0- <0.4.0-' ]
+675 silly lockFile 6d3723ce-mkdirp-0-3-x mkdirp@0.3.x
+676 verbose lock mkdirp@0.3.x C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\6d3723ce-mkdirp-0-3-x.lock
+677 verbose cache add [ 'transformers@2.1.0', null ]
+678 silly cache add name=undefined spec="transformers@2.1.0" args=["transformers@2.1.0",null]
+679 verbose parsed url { pathname: 'transformers@2.1.0',
+679 verbose parsed url   path: 'transformers@2.1.0',
+679 verbose parsed url   href: 'transformers@2.1.0' }
+680 silly cache add name="transformers" spec="2.1.0" args=["transformers","2.1.0"]
+681 verbose parsed url { pathname: '2.1.0', path: '2.1.0', href: '2.1.0' }
+682 verbose addNamed [ 'transformers', '2.1.0' ]
+683 verbose addNamed [ '2.1.0', '2.1.0' ]
+684 silly lockFile 8f87aaee-transformers-2-1-0 transformers@2.1.0
+685 verbose lock transformers@2.1.0 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\8f87aaee-transformers-2-1-0.lock
+686 verbose cache add [ 'character-parser@1.2.0', null ]
+687 silly cache add name=undefined spec="character-parser@1.2.0" args=["character-parser@1.2.0",null]
+688 verbose parsed url { pathname: 'character-parser@1.2.0',
+688 verbose parsed url   path: 'character-parser@1.2.0',
+688 verbose parsed url   href: 'character-parser@1.2.0' }
+689 silly cache add name="character-parser" spec="1.2.0" args=["character-parser","1.2.0"]
+690 verbose parsed url { pathname: '1.2.0', path: '1.2.0', href: '1.2.0' }
+691 verbose addNamed [ 'character-parser', '1.2.0' ]
+692 verbose addNamed [ '1.2.0', '1.2.0' ]
+693 silly lockFile ae738bf0-character-parser-1-2-0 character-parser@1.2.0
+694 verbose lock character-parser@1.2.0 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\ae738bf0-character-parser-1-2-0.lock
+695 verbose cache add [ 'monocle@1.1.50', null ]
+696 silly cache add name=undefined spec="monocle@1.1.50" args=["monocle@1.1.50",null]
+697 verbose parsed url { pathname: 'monocle@1.1.50',
+697 verbose parsed url   path: 'monocle@1.1.50',
+697 verbose parsed url   href: 'monocle@1.1.50' }
+698 silly cache add name="monocle" spec="1.1.50" args=["monocle","1.1.50"]
+699 verbose parsed url { pathname: '1.1.50', path: '1.1.50', href: '1.1.50' }
+700 verbose addNamed [ 'monocle', '1.1.50' ]
+701 verbose addNamed [ '1.1.50', '1.1.50' ]
+702 silly lockFile 5fe52b64-monocle-1-1-50 monocle@1.1.50
+703 verbose lock monocle@1.1.50 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\5fe52b64-monocle-1-1-50.lock
+704 verbose cache add [ 'with@~1.1.0', null ]
+705 silly cache add name=undefined spec="with@~1.1.0" args=["with@~1.1.0",null]
+706 verbose parsed url { pathname: 'with@~1.1.0',
+706 verbose parsed url   path: 'with@~1.1.0',
+706 verbose parsed url   href: 'with@~1.1.0' }
+707 silly cache add name="with" spec="~1.1.0" args=["with","~1.1.0"]
+708 verbose parsed url { pathname: '~1.1.0', path: '~1.1.0', href: '~1.1.0' }
+709 verbose addNamed [ 'with', '~1.1.0' ]
+710 verbose addNamed [ null, '>=1.1.0- <1.2.0-' ]
+711 silly lockFile ef0c4388-with-1-1-0 with@~1.1.0
+712 verbose lock with@~1.1.0 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\ef0c4388-with-1-1-0.lock
+713 verbose cache add [ 'constantinople@~1.0.1', null ]
+714 silly cache add name=undefined spec="constantinople@~1.0.1" args=["constantinople@~1.0.1",null]
+715 verbose parsed url { pathname: 'constantinople@~1.0.1',
+715 verbose parsed url   path: 'constantinople@~1.0.1',
+715 verbose parsed url   href: 'constantinople@~1.0.1' }
+716 silly cache add name="constantinople" spec="~1.0.1" args=["constantinople","~1.0.1"]
+717 verbose parsed url { pathname: '~1.0.1', path: '~1.0.1', href: '~1.0.1' }
+718 verbose addNamed [ 'constantinople', '~1.0.1' ]
+719 verbose addNamed [ null, '>=1.0.1- <1.1.0-' ]
+720 silly lockFile 0f56561f-constantinople-1-0-1 constantinople@~1.0.1
+721 verbose lock constantinople@~1.0.1 C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\0f56561f-constantinople-1-0-1.lock
+722 silly addNameRange { name: 'mkdirp', range: '>=0.3.0- <0.4.0-', hasData: false }
+723 silly addNameRange { name: 'with', range: '>=1.1.0- <1.2.0-', hasData: false }
+724 verbose url raw commander/2.0.0
+725 verbose url resolving [ 'https://registry.npmjs.org/', './commander/2.0.0' ]
+726 verbose url resolved https://registry.npmjs.org/commander/2.0.0
+727 info trying registry request attempt 1 at 17:50:53
+728 http GET https://registry.npmjs.org/commander/2.0.0
+729 silly addNameRange { name: 'constantinople',
+729 silly addNameRange   range: '>=1.0.1- <1.1.0-',
+729 silly addNameRange   hasData: false }
+730 verbose url raw transformers/2.1.0
+731 verbose url resolving [ 'https://registry.npmjs.org/', './transformers/2.1.0' ]
+732 verbose url resolved https://registry.npmjs.org/transformers/2.1.0
+733 info trying registry request attempt 1 at 17:50:53
+734 http GET https://registry.npmjs.org/transformers/2.1.0
+735 verbose url raw character-parser/1.2.0
+736 verbose url resolving [ 'https://registry.npmjs.org/', './character-parser/1.2.0' ]
+737 verbose url resolved https://registry.npmjs.org/character-parser/1.2.0
+738 info trying registry request attempt 1 at 17:50:53
+739 http GET https://registry.npmjs.org/character-parser/1.2.0
+740 verbose url raw monocle/1.1.50
+741 verbose url resolving [ 'https://registry.npmjs.org/', './monocle/1.1.50' ]
+742 verbose url resolved https://registry.npmjs.org/monocle/1.1.50
+743 info trying registry request attempt 1 at 17:50:53
+744 http GET https://registry.npmjs.org/monocle/1.1.50
+745 verbose url raw with
+746 verbose url resolving [ 'https://registry.npmjs.org/', './with' ]
+747 verbose url resolved https://registry.npmjs.org/with
+748 info trying registry request attempt 1 at 17:50:53
+749 http GET https://registry.npmjs.org/with
+750 verbose url raw constantinople
+751 verbose url resolving [ 'https://registry.npmjs.org/', './constantinople' ]
+752 verbose url resolved https://registry.npmjs.org/constantinople
+753 info trying registry request attempt 1 at 17:50:53
+754 http GET https://registry.npmjs.org/constantinople
+755 verbose url raw mkdirp
+756 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+757 verbose url resolved https://registry.npmjs.org/mkdirp
+758 info trying registry request attempt 1 at 17:50:53
+759 verbose etag "3ULD31ILDU86U22V4KQEZTLOL"
+760 http GET https://registry.npmjs.org/mkdirp
+761 http 200 https://registry.npmjs.org/methods/0.0.1
+762 silly registry.get cb [ 200,
+762 silly registry.get   { vary: 'Accept',
+762 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+762 silly registry.get     etag: '"6MMA3D5OLHFQORNDJ28A0NTWI"',
+762 silly registry.get     date: 'Mon, 25 Nov 2013 09:50:53 GMT',
+762 silly registry.get     'content-type': 'application/json',
+762 silly registry.get     'content-length': '496' } ]
+763 silly lockFile 0b9c0212-js-org-methods-methods-0-0-1-tgz https://registry.npmjs.org/methods/-/methods-0.0.1.tgz
+764 verbose lock https://registry.npmjs.org/methods/-/methods-0.0.1.tgz C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\0b9c0212-js-org-methods-methods-0-0-1-tgz.lock
+765 verbose addRemoteTarball [ 'https://registry.npmjs.org/methods/-/methods-0.0.1.tgz',
+765 verbose addRemoteTarball   '277c90f8bef39709645a8371c51c3b6c648e068c' ]
+766 info retry fetch attempt 1 at 17:50:54
+767 verbose fetch to= C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373054794-0.8639594661071897\tmp.tgz
+768 http GET https://registry.npmjs.org/methods/-/methods-0.0.1.tgz
+769 http 200 https://registry.npmjs.org/commander/0.6.1
+770 silly registry.get cb [ 200,
+770 silly registry.get   { vary: 'Accept',
+770 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+770 silly registry.get     etag: '"4TCRTLPBQW4XLXUO0M7R72HI4"',
+770 silly registry.get     date: 'Mon, 25 Nov 2013 09:50:53 GMT',
+770 silly registry.get     'content-type': 'application/json',
+770 silly registry.get     'content-length': '7887' } ]
+771 silly lockFile 378c912a-rg-commander-commander-0-6-1-tgz https://registry.npmjs.org/commander/-/commander-0.6.1.tgz
+772 verbose lock https://registry.npmjs.org/commander/-/commander-0.6.1.tgz C:\Users\feltmeng-progarm\AppData\Roaming\npm-cache\378c912a-rg-commander-commander-0-6-1-tgz.lock
+773 verbose addRemoteTarball [ 'https://registry.npmjs.org/commander/-/commander-0.6.1.tgz',
+773 verbose addRemoteTarball   'fa68a14f6a945d54dbbe50d8cdb3320e9e3b1a06' ]
+774 info retry fetch attempt 1 at 17:50:55
+775 verbose fetch to= C:\Users\FELTME~1\AppData\Local\Temp\npm-18496\1385373055206-0.8557460347656161\tmp.tgz
+776 http GET https://registry.npmjs.org/commander/-/commander-0.6.1.tgz
+777 http 200 https://registry.npmjs.org/send/0.1.0
+778 silly registry.get cb [ 200,
+778 silly registry.get   { vary: 'Accept',
+778 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+778 silly registry.get     etag: '"44MEX16XITH6HKKBT0BOK31OO"',
+778 silly registry.get     date: 'Mon, 25 Nov 2013 09:50:53 GMT',
+778 silly registry.get     'content-type': 'application/json',
+778 silly registry.get     'content-length': '4391' } ]
+779 error Error: write EPIPE
+779 error     at errnoException (net.js:770:11)
+779 error     at Object.afterWrite (net.js:594:19)
+780 error If you need help, you may report this log at:
+780 error     <http://github.com/isaacs/npm/issues>
+780 error or email it to:
+780 error     <npm-@googlegroups.com>
+781 error System Windows_NT 6.1.7601
+782 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+783 error cwd D:\node_js_project\star_adapter
+784 error node -v v0.8.16
+785 error npm -v 1.1.69
+786 error syscall write
+787 error code EPIPE
+788 error errno EPIPE
+789 verbose exit [ 1, true ]
