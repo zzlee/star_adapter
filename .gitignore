@@ -2,3 +2,8 @@
 .settings/com.eclipsesource.jshint.ui.prefs
 log/exceptions.log
 log/winston.log
+_.gitignore
+public/contents/temp/mood-512da133989cfc2403000005-20131106T102807893Z.png
+public/contents/temp/wow_pic-5261c0bfd1780edc04000005-20131127T105929503Z.png
+scala/log/winston.log
+system_configuration.json
