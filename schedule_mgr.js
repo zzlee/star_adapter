@@ -285,7 +285,7 @@ var autoCheckProgramAndPushToPlayer = function(){
         async.series([
                       function(callback1){
                           //pushEvent
-                          var checkDateStart = new Date().getTime();
+             /*             var checkDateStart = new Date().getTime();
                           var checkDateEnd = checkDateStart + 40*60*1000;
                           logger.info("[schedule_mgr.autoCheckProgramAndPushToPlayer]find sessionItemModel in checkDateStart:"+checkDateStart+",checkDateEnd:"+checkDateEnd);
                           sessionItemModel.find({'intervalOfPlanningDoohProgrames.start': {$gte: checkDateStart, $lt: checkDateEnd}}).exec(function(err, result){
@@ -306,7 +306,8 @@ var autoCheckProgramAndPushToPlayer = function(){
                                   logger.info("[schedule_mgr.autoCheckProgramAndPushToPlayer]fail to get sessionItem err="+err);
                               }
                               //console.log(err, result);
-                          });
+                          });*/
+                          callback1(null);
                       },
                       function(callback2){
                         //Push program to scala

@@ -272,7 +272,7 @@ function scalaMgr( url, account ){
         
         var setting = {
             media: { id: '', name: option.media.name },
-            playlist: { id: '', name: playlistName, content: '' },
+            playlist: { id: '', name: playlistName, content: '', sort: 'name' },
             playTime: { start: option.playTime.start, end: option.playTime.end, duration: option.playTime.duration },
             playlistItem: { id: 0 }
         };
@@ -367,7 +367,7 @@ function scalaMgr( url, account ){
             // upload_cb(null, status);
             contractor.media.list({search: media.name}, function(err, res){ 
                 if(typeof(res.list) === 'undefined')
-                    step1('NO_MEDIA_INFO', null);
+                    upload_cb('NO_MEDIA_INFO', null);
                 else {
                     media.id = res.list[0].id;
                     upload_cb(null, { media: media });
@@ -598,7 +598,8 @@ function scalaMgr( url, account ){
                 });
             },
             function(callback){
-                contractor.playlist.list( { sort: 'id', fields: 'id,name,playlistItems', search: option.playlist.play }, function(err, playlist){
+                contractor.playlist.list( { sort: 'name', limit: 1, fields: 'id,name', search: option.playlist.play }, function(err, playlist){
+                    console.dir(playlist);
                     callback(null, playlist);
                 });
             },

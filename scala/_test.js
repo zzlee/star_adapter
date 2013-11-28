@@ -13,9 +13,9 @@ var logger = new(winston.Logger)({
 global.logger = logger; 
 
 var scala = require('./scalaMgr');
-var scalaMgr = scala( 'http://192.168.5.189:8080', { username: 'administrator', password: '53768608' } );
+// var scalaMgr = scala( 'http://192.168.5.189:8080', { username: 'administrator', password: '53768608' } );
 // var scalaMgr = scala( 'http://www.feltmeng.idv.tw:8080', { username: 'administrator', password: '53768608' } );
-// var scalaMgr = scala( 'http://220.128.120.51:8080', { username: 'administrator', password: '28469434' } );
+var scalaMgr = scala( 'http://220.128.120.51:8080', { username: 'administrator', password: '28469434' } );
 
 setTimeout(function(){
     
@@ -149,9 +149,9 @@ setTimeout(function(){
     }); */
     
     //ScalaMgr APIs : pushEvent()
-    /* var option = { 
-        playlist: { search: 'lastModified', play: 'OnDaScreen' },
-        player: { name: 'feltmeng' } 
+/*     var option = { 
+        playlist: { search: 'FM', play: 'OnDaScreen' },
+        player: { name: 'nova-sge-001' } 
     };
     scalaMgr.pushEvent( option, function(res){
         console.log(res);
