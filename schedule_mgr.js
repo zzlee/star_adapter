@@ -265,6 +265,7 @@ var autoPushProgramToPlayer = function(){
 };
 
 var autoCheckProgramAndPushToPlayer = function(){
+    logger.info("[schedule_mgr.autoCheckProgramAndPushToPlayer]start");
 
     if(flag == 1){
         //validProgramExpired
