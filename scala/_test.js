@@ -1,5 +1,6 @@
 //winston
-var winston = require('winston');
+// var winston = require('winston');
+var winston = require('D:\\nodejs_project\\star_admin_server\\node_modules\\winston\\lib\\winston.js');
 var fs = require('fs');
 if(!fs.existsSync('./log')) fs.mkdirSync('log');
 
@@ -13,9 +14,9 @@ var logger = new(winston.Logger)({
 global.logger = logger; 
 
 var scala = require('./scalaMgr');
-// var scalaMgr = scala( 'http://192.168.5.189:8080', { username: 'administrator', password: '53768608' } );
+var scalaMgr = scala( 'http://192.168.5.189:8080', { username: 'administrator', password: '53768608' } );
 // var scalaMgr = scala( 'http://www.feltmeng.idv.tw:8080', { username: 'administrator', password: '53768608' } );
-var scalaMgr = scala( 'http://220.128.120.51:8080', { username: 'administrator', password: '28469434' } );
+// var scalaMgr = scala( 'http://220.128.120.51:8080', { username: 'administrator', password: '28469434' } );
 
 setTimeout(function(){
     
@@ -139,7 +140,7 @@ setTimeout(function(){
     //ScalaMgr APIs : clearMedia()
     /* var option =
     {
-        search: 'google'
+        search: 'web_test'
     };
     scalaMgr.clearMedia( option, function(err, res){
         if(err)
@@ -149,12 +150,24 @@ setTimeout(function(){
     }); */
     
     //ScalaMgr APIs : pushEvent()
-/*     var option = { 
-        playlist: { search: 'FM', play: 'OnDaScreen' },
-        player: { name: 'nova-sge-001' } 
+    /* var option = { 
+        playlist: { search: 'lastModified', play: 'OnDaScreen' },
+        player: { name: 'feltmeng' } 
     };
     scalaMgr.pushEvent( option, function(res){
         console.log(res);
+    }); */
+    
+    //ScalaMgr APIs : dumpPlaylist()
+    /* var option = { 
+        playlist: { name: 'OnDaScreen' },
+        logger: { name: 'playlist.log' }
+    };
+    scalaMgr.dumpPlaylist( option, function(err, res){
+        if(err)
+            console.dir(err);
+        else
+            console.dir(res);
     }); */
         
 }, 2000);

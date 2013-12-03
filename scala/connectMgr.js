@@ -13,10 +13,12 @@ var connect = (function() {
                 // (err)?console.log('error!'):console.log('OK');
                 if(err) {
                     logger.info('re-login scala: get new access token');
+                    scalaLogger.connect('re-login scala: get new access token');
                     connect.init( auth.adapter, account );
                 }
                 else {
                     logger.info('scala access token is valid');
+                    scalaLogger.connect('scala access token is valid');
                     connect.validToken();
                 }
             });
@@ -56,6 +58,7 @@ var connect = (function() {
             else {
                 // console.log('collision!!');
                 logger.info('scala collision detection: ' + type + 'collision occur!');
+                scalaLogger.connect('scala collision detection: ' + type + 'collision occur!');
                 collisionListener.once('collision', function(status){
                     collision_cb('OK');
                 });
